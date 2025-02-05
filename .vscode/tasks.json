@@ -7,6 +7,9 @@
             "command": [
                 "source ~/.pyenv/versions/$(pyenv local)/bin/activate &&",
                 "rendercv render",
+                "-d src/design.yaml",
+                "-rs src/rendercv_settings.yaml",
+                "-lc src/locale.yaml",
                 "src/Gergo_Gacs_CV.yaml",
                 "--markdown-path README.md",
             ],

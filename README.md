@@ -2,66 +2,78 @@
 
 - Phone: +36 20 594 6655
 - Email: [gacsgergo@gmail.com](mailto:gacsgergo@gmail.com)
-- Location: Hungary
+- Location: Budapest, Hungary
 - LinkedIn: [gergogacs](https://linkedin.com/in/gergogacs)
 - GitHub: [jstabitunlikely](https://github.com/jstabitunlikely)
 
 
 # Experience
 
-## Career break,  
+## Backpacking through South East Asia, Career break
 
 - Sept 2024 – present
 
-## Arm Ltd., Principal Verification Engineer
+## Arm Hungary, Principal Verification Engineer
 
-- 2017 – 2024
-- Budapest, Hungary
+- Mar 2024 – Sept 2024
 - technical
-- leadership
-- line management
 
-## Evosoft Hungary Kft., ASIC Verification Engineer
+## Arm Hungary, Staff Verification Engineer
 
-- 2014 – 2017
-- Budapest, Hungary
-- UVM (Specman e) verification of industrial controller ASICs
-- Participating in Agile transformation as scrum master
+- Mar 2020 – Mar 2024
+- technical
+
+## Arm Hungary, Senior Verification Engineer
+
+- Feb 2017 – Mar 2020
+- Planned and executed UVM verification on IP-level. Mentored junior colleagues.
+- Set up and maintained (UVM, Formal, Lint, CDC, DFT etc.) flows.
+
+## Evosoft Hungary (Siemens), ASIC Verification Engineer
+
+- Apr 2014 – Feb 2017
+- Learned verification methodologies (Coverage-driven, UVM, Formal), regression management.
+- Participated in the team's Agile transformation as scrum master.
+
+## ThyssenKrupp Presta Hungary, Embedded SW Verification Intern
+
+- Sept 2012 – Apr 2014
+- Hardware in the loop testing of steering system ECUs via Python tests.
 
 # Projects
 
-## [Arm CoreLink DMA-350](https://developer.arm.com/Processors/CoreLink%20DMA-350)
-
-- Sept 2019 – Feb 2022
-- TBD
-- TBD
-
-## [Arm CoreLink SMMU](TBD)
+## [Arm CoreLink SMMU](TBD), Verification unit lead
 
 - Feb 2022 – Sept 2024
 - TBD
 
+## [Arm CoreLink DMA-350](https://developer.arm.com/Processors/CoreLink%20DMA-350), Verification lead
+
+- Sept 2019 – Feb 2022
+- Led a team of 10+ verification (remote) engineers in the successful completion of the project, delivering on schedule and within budget.
+- Implemented a Gerrit+Jenkins workflow and introduced CI practices to the wider team.
+- Implemented a Register flow to generate RTL, IP-XACT, UVM, Markdown etc. from a common source.
+
+## [Arm Cortex-M55](TBD), Verification engineer (Cambridge)
+
+- Mar 2019 – Sept 2019
+- Working on EPU (Extension Processing Unit) data path test bench.
+
 # Skills
 
-- Verification: SystemVerilog, UVM, Formal, Git, Jenkins, GitLab, TBD
-- Team leadership: TBD
-- Languages: English (fluent, Hungarian (native)
+- Verification: SystemVerilog, UVM, Formal, AMBA, Git, CI, Methodology WG
+- Leadership: Process-oriented, efficiency-driven, agile-inspired, line management
+- Languages: English (fluent), Hungarian (native)
 # Education
 
-## Budapest University of Technology and Economics, MSc in Electrical Engineering
+## Budapest University of Technology, BSc, MSc in Electrical Engineering
 
-- 2012 – 2014
-- Budapest, Hungary
-- Major: Embedded and Information Systems
-- Minor: Applications of programmable logic devices
+- 2008 – 2014
+- Budapest
+- Major in Embedded and Information Systems
+- Minor in Applications of programmable logic devices
 
-## Budapest University of Technology and Economics, BSc in Electrical Engineering
+# Interests
 
-- 2008 – 2012
-- Budapest, Hungary
-- Major: Embedded and Information Systems
-
-# Interest
-
-- Continuous Integration in Hardware Development
-- [Advent Of Code](https://github.com/jstabitunlikely/adventofcode)
+- Professional: DevOps in HW Development, Continuous Improvement, Methodologies
+- Personal: Travel, photography, espresso, cycling, '[Advent Of Code](https://github.com/jstabitunlikely/adventofcode)'
