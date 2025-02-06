@@ -10,7 +10,7 @@ design:
     show_last_updated_date: false
   text:
     font_size: 11pt
-    date_and_location_column_alignment: center
+    date_and_location_column_alignment: right
   links:
     underline: false
     use_external_link_icon: true
@@ -23,8 +23,6 @@ design:
     use_icons_for_connections: true
   section_titles:
     type: moderncv
-    # REVISIT
-    # type: with-parial-line
     bold: true
     small_caps: true
     line_thickness: 0.5pt
@@ -32,6 +30,7 @@ design:
     allow_page_break_in_entries: false
     date_and_location_width: 2cm
     horizontal_space_between_columns: 0.2cm
+    vertical_space_between_entries: "1.2em"
     short_second_row: true
   entry_types:
     one_line_entry:
