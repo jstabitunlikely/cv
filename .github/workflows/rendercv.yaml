@@ -18,36 +18,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13.1"
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
       - name: RenderCV
         run: |
-          cd src
-          cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
-          if [ -z "$cv_file" ]; then
-            echo "No RenderCV file found!"
-            exit 1
-          fi
-          cd ..
-          rendercv render src/$cv_file --markdown-path README.md
+          rendercv render \
+            -d src/design.yaml \
+            -rs src/rendercv_settings.yaml \
+            -lc src/locale.yaml \
+            src/Gergo_Gacs_CV.yaml \
+            --markdown-path README.md
+
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: RenderCV Output
           path: rendercv_output
-      - uses: dorny/paths-filter@v3
-        id: changes
-        with:
-          base: HEAD
-          filters: |
-            cv:
-              - 'README.md'
-      - name: Push the changes
-        if: steps.changes.outputs.cv == 'true'
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -A
-          git commit -m "render the latest CV"
-          git push
