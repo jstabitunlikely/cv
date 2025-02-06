@@ -9,17 +9,17 @@ locale:
   year: year
   years: years
   present: present
-  to: –
+  to: '-\n'
   abbreviations_for_months:
     - Jan
     - Feb
     - Mar
     - Apr
     - May
-    - June
-    - July
+    - Jun
+    - Jul
     - Aug
-    - Sept
+    - Sep
     - Oct
     - Nov
     - Dec

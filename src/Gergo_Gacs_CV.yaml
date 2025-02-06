@@ -9,6 +9,9 @@ cv:
     - network: GitHub
       username: jstabitunlikely
   sections:
+    introduction:
+      - Innovative and technically proficient verification expert with a passion for developing and implementing
+        cutting-edge solutions. Adept at leading teams, solving complex challenges, and fostering collaborative environments.
     experience:
       - company: 'Backpacking through South East Asia'
         position: Career break
@@ -16,72 +19,54 @@ cv:
         end_date: present
       - company: Arm Hungary
         position: Principal Verification Engineer
-        location:
         start_date: 2024-03
         end_date: 2024-09
-        summary:
+        summary: Led a team in successful dynamic verification of a System MMU sub-unit (TBU).
         highlights:
-          - technical
+          - Contributed to the hiring process of verification engineers.
+          - Participated in Engineering Efficiency Working Group (cross-site alignment on flows, tools and best practices).
       - company: Arm Hungary
         position: Staff Verification Engineer
-        location:
         start_date: 2020-03
         end_date: 2024-03
-        summary:
+        summary: Led a team of verification engineers in the successful completion of a DMA project.
         highlights:
-          - technical
+          - Introduced Agile practices and CI to the project (and consequently, multiple teams).
+          - Participated in Line management.
       - company: Arm Hungary
         position: Senior Verification Engineer
-        location:
         start_date: 2017-02
         end_date: 2020-03
-        summary:
+        summary: Planned and executed dynamic verification on IP-level.
         highlights:
-          - Planned and executed UVM verification on IP-level. Mentored junior colleagues.
           - Set up and maintained (UVM, Formal, Lint, CDC, DFT etc.) flows.
+          - Mentored junior colleagues.
       - company: Evosoft Hungary (Siemens)
         position: ASIC Verification Engineer
-        location:
         start_date: 2014-04
         end_date: 2017-02
-        summary:
+        summary: Planned and implemented Specman UVM verification of Industrial controller ASICs.
         highlights:
-          - Learned verification methodologies (Coverage-driven, UVM, Formal), regression management.
           - Participated in the team's Agile transformation as scrum master.
       - company: ThyssenKrupp Presta Hungary
         position: Embedded SW Verification Intern
-        location:
         start_date: 2012-09
         end_date: 2014-04
-        summary:
+        summary: Hardware in the loop testing of steering system ECUs via Python tests.
         highlights:
-          - Hardware in the loop testing of steering system ECUs via Python tests.
-    projects:
-      - name: '[Arm CoreLink SMMU](TBD), Verification unit lead'
-        summary:
-        start_date: 2022-02
-        end_date: 2024-09
-        highlights:
-          - TBD
-      - name: '[Arm CoreLink DMA-350](https://developer.arm.com/Processors/CoreLink%20DMA-350), Verification lead'
-        summary:
-        start_date: 2019-09
-        end_date: 2022-02
-        highlights:
-          - Led a team of 10+ verification (remote) engineers in the successful completion of the project, delivering on schedule and within budget.
-          - Implemented a Gerrit+Jenkins workflow and introduced CI practices to the wider team.
-          - Implemented a Register flow to generate RTL, IP-XACT, UVM, Markdown etc. from a common source.
-      - name: '[Arm Cortex-M55](TBD), Verification engineer (Cambridge)'
-        summary:
-        start_date: 2019-03
-        end_date: 2019-09
-        highlights:
-          - Working on EPU (Extension Processing Unit) data path test bench.
     skills:
-      - label: Verification
-        details: SystemVerilog, UVM, Formal, AMBA, Git, CI, Methodology WG
+      - label: Design Verification
+        details: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI,
+      - label: Tools and languages
+        details:
+          Questa/Visualizer, Jasper, Git, Gerrit, Jenkins, GitLab, VScode, DVT,
+          Python, shell, Tcl,
       - label: Leadership
-        details: Process-oriented, efficiency-driven, agile-inspired, line management
+        details: Team leadership and mentorship,
+          Project coordination and prioritization,
+          Process improvement and innovation,
+          Technical problem solving and guidance,
+          Line management
       - label: Languages
         details: 'English (fluent), Hungarian (native)'
     education:
@@ -89,13 +74,59 @@ cv:
         area: Electrical Engineering
         degree: BSc, MSc
         location: Budapest
-        start_date: 2008
-        end_date: 2014
+        start_date: 2008-09
+        end_date: 2014-07
         highlights:
           - "Major in Embedded and Information Systems"
           - "Minor in Applications of programmable logic devices"
     interests:
       - label: Professional
-        details: DevOps in HW Development, Continuous Improvement, Methodologies
+        details: DevOps in HW Development, Methodologies, Agile development
       - label: Personal
         details: Travel, photography, espresso, cycling, '[Advent Of Code](https://github.com/jstabitunlikely/adventofcode)'
+    projects:
+      - name: '[Arm CoreLink SMMU](https://www.arm.com/products/silicon-ip-system/system-controllers/mmu), Verification unit lead'
+        summary: Led a team in successful dynamic verification of a System MMU sub-unit (TBU).
+        start_date: 2022-02
+        end_date: 2024-09
+        highlights:
+          - Planned the dynamic verification strategy, working around heavy constraints and technical debt from multiple legacy projects.
+          - Implemented a UVM environment from scratch and migrated legacy reference models.
+          - Coordinated the migration of hundreds of legacy test cases and coverage models by mostly junior engineers.
+          - Contributed to working out the technical aspects of restructuring a team of 60+ engineers for component-based development.
+          - Proposed and prototyped a framework for a common UVM codebase to unify environments across the product lines.
+          - Proposed and prototyped a new CI flow (GitLab) to facilitate team collaboration across the portfolio.
+      - name: '[Arm CoreLink DMA-350](https://developer.arm.com/Processors/CoreLink%20DMA-350), Verification lead'
+        summary: Led a team of 10+ verification engineers in the successful completion of the project, delivering on schedule and within budget.
+        start_date: 2019-09
+        end_date: 2022-02
+        highlights:
+          - Planned the verification strategy, involving Dynamic (UVM) and Formal methodologies.
+          - Used Agile practices in project planning (iterative feature development) and execution (meeting structure).
+          - Aligned the work within the verification sub-teams (unit, top, system and formal) and with other teams
+            (design, emulation, fast modeling etc.) and stakeholders (product management, downstream projects).
+          - Introduced CI to the wider team. Implemented a Gerrit+Jenkins workflow and supported the team in using it.
+          - Implemented a tool to generate Register RTL, IP-XACT, UVM, Markdown, C headers etc. from a common source.
+      - name: '[Arm Cortex-M55 CPU](https://developer.arm.com/processors/cortex-m55), Verification engineer (secondment)'
+        summary: Working on EPU (Extension Processing Unit) data path test bench.
+        start_date: 2019-03
+        end_date: 2019-09
+        location: Cambridge
+        highlights:
+          - Planned and executed the migration of a legacy TB into the latest project generation, which implemented MVE (M-profile Vector Extension).
+          - Porting test vectors from another (A-class) product line for more exhaustive testing.
+          - Additional work on PMC-100 (Programmable MBIST Controller) test bench.
+      - name: '[Arm CoreLink GFC-200](https://developer.arm.com/documentation/101484/0000/Overview/About-the-GFC-200), Design Engineer'
+        summary: Updating GFC-100 with new features while keeping PPA targets.
+        start_date: 2018-02
+        end_date: 2019-02
+        highlights:
+          - Used Lint, CDC and Formal checks to ensure compliance and bug avoidance. Worked together with the verification team on verification closure (bug fixes, code coverage analysis etc.).
+          - Set up and maintained design and verification flows.
+      - name: '[Arm CoreLink GFC-100](https://developer.arm.com/documentation/101059/0000/introduction/about-gfc-100), Verification Engineer'
+        summary: Planning and executing verification of an AHB Flash controller IP.
+        start_date: 2017-02
+        end_date: 2018-02
+        highlights:
+          - Used UVM as the main methodology, complemented by Formal verification.
+          - Set up and maintained design and verification flows.
