@@ -12,7 +12,7 @@ cv:
     introduction:
       - Verification Engineer with 10+ years of experience in developing cutting-edge verification solutions for
         complex SoCs. Proven ability to lead teams, drive process improvements, and deliver high-quality results.
-        Expertise in UVM, Formal Verification, and Agile methodologies.
+        Expertise in UVM, Formal Verification, and Agile methodologies and Continuous Integration.
     experience:
       - company: ''
         position: Career break
@@ -26,7 +26,7 @@ cv:
         summary: Led a team in successful dynamic verification of a System MMU sub-unit (TBU).
         highlights:
           - Contributed to the hiring process of verification engineers.
-          - Participated in Engineering Efficiency Working Group (cross-site alignment on flows, tools and best practices).
+          - Participated in cross-project alignment on flows, tools and best practices.
       - company: Arm Hungary
         position: Staff Verification Engineer
         start_date: 2020-03
@@ -57,7 +57,7 @@ cv:
         highlights:
     skills:
       - label: Verification
-        details: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI
+        details: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI/LPI
       - label: Tools and languages
         details:
           Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC,
@@ -92,11 +92,11 @@ cv:
         start_date: 2022-02
         end_date: 2024-09
         highlights:
-          - Planned the dynamic verification strategy, working around heavy constraints and technical debt from multiple legacy projects.
+          - Planned the dynamic verification strategy, working around strict constraints and considerable technical debt from multiple legacy projects.
           - Implemented a UVM environment from scratch and redesigned legacy reference models.
           - Coordinated the migration of hundreds of legacy test cases and coverage models by mostly junior engineers.
           - Contributed to working out the technical aspects of restructuring a team of 60+ engineers for component-based development.
-          - Proposed and prototyped a framework for a common UVM codebase to unify environments across the product lines.
+          - Proposed and built a framework for a common UVM codebase to unify environments across the product lines.
           - Proposed and prototyped a new CI flow (GitLab) to facilitate team collaboration across the portfolio.
       - name: '[Arm CoreLink DMA-350](https://developer.arm.com/Processors/CoreLink%20DMA-350), Verification Lead'
         summary: Led a team of 10+ verification engineers in the successful completion of the project, delivering on schedule and within budget.

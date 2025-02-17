@@ -9,7 +9,7 @@
 
 # Introduction
 
-Verification Engineer with 10+ years of experience in developing cutting-edge verification solutions for complex SoCs. Proven ability to lead teams, drive process improvements, and deliver high-quality results. Expertise in UVM, Formal Verification, and Agile methodologies.
+Verification Engineer with 10+ years of experience in developing cutting-edge verification solutions for complex SoCs. Proven ability to lead teams, drive process improvements, and deliver high-quality results. Expertise in UVM, Formal Verification, and Agile methodologies and Continuous Integration.
 
 # Experience
 
@@ -21,7 +21,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 
 - Mar 2024 -\n Sep 2024
 - Contributed to the hiring process of verification engineers.
-- Participated in Engineering Efficiency Working Group (cross-site alignment on flows, tools and best practices).
+- Participated in cross-project alignment on flows, tools and best practices.
 
 ## Arm Hungary, Staff Verification Engineer
 
@@ -45,7 +45,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 
 # Skills
 
-- Verification: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI
+- Verification: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI/LPI
 - Tools and languages: Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC, VScode, DVT, Git, Gerrit, Jenkins, GitLab, Jira, Grafana, Python, shell, Tcl
 - Leadership: Team leadership and mentorship, Project coordination and prioritization, Process improvement and innovation, Technical problem solving and guidance, Line management
 - Languages: English (fluent), Hungarian (native)
@@ -66,7 +66,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 ## [Arm CoreLink SMMU](https://www.arm.com/products/silicon-ip-system/system-controllers/mmu), Unit Verification Lead
 
 - Feb 2022 -\n Sep 2024
-- Planned the dynamic verification strategy, working around heavy constraints and technical debt from multiple legacy projects.
+- Planned the dynamic verification strategy, working around strict constraints and considerable technical debt from multiple legacy projects.
 - Implemented a UVM environment from scratch and redesigned legacy reference models.
 - Coordinated the migration of hundreds of legacy test cases and coverage models by mostly junior engineers.
 - Contributed to working out the technical aspects of restructuring a team of 60+ engineers for component-based development.
