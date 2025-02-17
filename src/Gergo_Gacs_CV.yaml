@@ -33,12 +33,13 @@ cv:
         end_date: 2024-03
         summary: Led a team of verification engineers in the successful completion of a DMA project.
         highlights:
-          - Introduced Agile practices and CI to the project (and consequently, multiple teams).
+          - Ensured on-time delivery through metrics tracking and continuous prioritization.
+          - Introduced Agile practices and CI to the project and other teams.
       - company: Arm Hungary
         position: Senior Verification Engineer
         start_date: 2017-02
         end_date: 2020-03
-        summary: Planned and executed dynamic verification on IP-level.
+        summary: Dynamic verification on IP-level from planning to coverage closure and sign-off.
         highlights:
           - Set up and maintained (UVM, Formal, Lint, CDC, DFT etc.) flows.
           - Mentored junior colleagues.
@@ -56,14 +57,15 @@ cv:
         summary: Hardware in the loop testing of steering system ECUs via Python tests.
         highlights:
     skills:
-      - label: Verification
-        details: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI/LPI
+      - label: Design verification
+        details: SystemVerilog UVM, Formal, VIPs, IoT, Low-power, DMA,
+          Virtualization, AMBA APB/AHB/AXI/DTI/LTI/LPI
       - label: Tools and languages
         details:
           Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC,
           VScode, DVT, Git, Gerrit, Jenkins, GitLab,
           Jira, Grafana,
-          Python, shell, Tcl
+          Python, shell, Tcl scripting
       - label: Leadership
         details: Team leadership and mentorship,
           Project coordination and prioritization,
@@ -105,7 +107,7 @@ cv:
         highlights:
           - Planned the verification strategy, involving Dynamic (UVM) and Formal methodologies.
           - Used Agile practices in project planning (iterative feature development) and execution (meeting structure).
-          - Aligned the work within the verification sub-teams (unit, top, system and formal) and with other teams
+          - Aligned the work and resources within the verification sub-teams (unit, top, system and formal) and with other teams
             (design, emulation, fast modeling etc.) and stakeholders (product management, downstream projects).
           - Introduced CI to the wider team. Implemented a Gerrit+Jenkins workflow and supported the team in using it.
           - Developed a tool to generate Register RTL, IP-XACT, UVM, Markdown, C headers etc. from a common source.

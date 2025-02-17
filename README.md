@@ -26,7 +26,8 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 ## Arm Hungary, Staff Verification Engineer
 
 - Mar 2020 -\n Mar 2024
-- Introduced Agile practices and CI to the project (and consequently, multiple teams).
+- Ensured on-time delivery through metrics tracking and continuous prioritization.
+- Introduced Agile practices and CI to the project and other teams.
 
 ## Arm Hungary, Senior Verification Engineer
 
@@ -45,8 +46,8 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 
 # Skills
 
-- Verification: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI/LPI
-- Tools and languages: Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC, VScode, DVT, Git, Gerrit, Jenkins, GitLab, Jira, Grafana, Python, shell, Tcl
+- Design verification: SystemVerilog UVM, Formal, VIPs, IoT, Low-power, DMA, Virtualization, AMBA APB/AHB/AXI/DTI/LTI/LPI
+- Tools and languages: Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC, VScode, DVT, Git, Gerrit, Jenkins, GitLab, Jira, Grafana, Python, shell, Tcl scripting
 - Leadership: Team leadership and mentorship, Project coordination and prioritization, Process improvement and innovation, Technical problem solving and guidance, Line management
 - Languages: English (fluent), Hungarian (native)
 # Education
@@ -70,7 +71,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 - Implemented a UVM environment from scratch and redesigned legacy reference models.
 - Coordinated the migration of hundreds of legacy test cases and coverage models by mostly junior engineers.
 - Contributed to working out the technical aspects of restructuring a team of 60+ engineers for component-based development.
-- Proposed and prototyped a framework for a common UVM codebase to unify environments across the product lines.
+- Proposed and built a framework for a common UVM codebase to unify environments across the product lines.
 - Proposed and prototyped a new CI flow (GitLab) to facilitate team collaboration across the portfolio.
 
 ## [Arm CoreLink DMA-350](https://developer.arm.com/Processors/CoreLink%20DMA-350), Verification Lead
@@ -78,7 +79,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 - Sep 2019 -\n Feb 2022
 - Planned the verification strategy, involving Dynamic (UVM) and Formal methodologies.
 - Used Agile practices in project planning (iterative feature development) and execution (meeting structure).
-- Aligned the work within the verification sub-teams (unit, top, system and formal) and with other teams (design, emulation, fast modeling etc.) and stakeholders (product management, downstream projects).
+- Aligned the work and resources within the verification sub-teams (unit, top, system and formal) and with other teams (design, emulation, fast modeling etc.) and stakeholders (product management, downstream projects).
 - Introduced CI to the wider team. Implemented a Gerrit+Jenkins workflow and supported the team in using it.
 - Developed a tool to generate Register RTL, IP-XACT, UVM, Markdown, C headers etc. from a common source.
 
