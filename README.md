@@ -45,8 +45,8 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 
 # Skills
 
-- Verification: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI,
-- Tools and languages: Questa/Visualizer, Jasper, Git, Gerrit, Jenkins, GitLab, VScode, DVT, Python, shell, Tcl,
+- Verification: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI
+- Tools and languages: Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC, VScode, DVT, Git, Gerrit, Jenkins, GitLab, Jira, Grafana, Python, shell, Tcl
 - Leadership: Team leadership and mentorship, Project coordination and prioritization, Process improvement and innovation, Technical problem solving and guidance, Line management
 - Languages: English (fluent), Hungarian (native)
 # Education
@@ -59,7 +59,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 
 # Interests
 
-- Professional: DevOps in HW Development, Methodologies, Agile development
+- Professional: DevOps in HW Development, Methodologies, Agile, [PyUVM](https://github.com/jstabitunlikely/apb5vip)
 - Personal: Travel, photography, espresso, cycling, '[Advent Of Code](https://github.com/jstabitunlikely/adventofcode)'
 # Projects
 
@@ -67,7 +67,7 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 
 - Feb 2022 -\n Sep 2024
 - Planned the dynamic verification strategy, working around heavy constraints and technical debt from multiple legacy projects.
-- Implemented a UVM environment from scratch and migrated legacy reference models.
+- Implemented a UVM environment from scratch and redesigned legacy reference models.
 - Coordinated the migration of hundreds of legacy test cases and coverage models by mostly junior engineers.
 - Contributed to working out the technical aspects of restructuring a team of 60+ engineers for component-based development.
 - Proposed and prototyped a framework for a common UVM codebase to unify environments across the product lines.

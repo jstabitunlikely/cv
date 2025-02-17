@@ -57,11 +57,13 @@ cv:
         highlights:
     skills:
       - label: Verification
-        details: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI,
+        details: SystemVerilog UVM, Formal, VIPs, AMBA APB/AHB/AXI/DTI/LTI
       - label: Tools and languages
         details:
-          Questa/Visualizer, Jasper, Git, Gerrit, Jenkins, GitLab, VScode, DVT,
-          Python, shell, Tcl,
+          Questa/Visualizer, Xcelium, VCS, Jasper, Questa CDC,
+          VScode, DVT, Git, Gerrit, Jenkins, GitLab,
+          Jira, Grafana,
+          Python, shell, Tcl
       - label: Leadership
         details: Team leadership and mentorship,
           Project coordination and prioritization,
@@ -81,7 +83,7 @@ cv:
           - "Minor in Applications of programmable logic devices"
     interests:
       - label: Professional
-        details: DevOps in HW Development, Methodologies, Agile development
+        details: DevOps in HW Development, Methodologies, Agile, [PyUVM](https://github.com/jstabitunlikely/apb5vip)
       - label: Personal
         details: Travel, photography, espresso, cycling, '[Advent Of Code](https://github.com/jstabitunlikely/adventofcode)'
     projects:
