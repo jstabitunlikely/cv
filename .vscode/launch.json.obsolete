@@ -8,7 +8,7 @@
             "module": "rendercv",
             "args": [
                 "render",
-                "src/Gergo_Gacs_CV.yaml",
+                "src/Gergo_Gacs_CV.yaml"
             ]
         }
     ]
