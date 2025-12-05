@@ -16,7 +16,7 @@ Verification Engineer with 10+ years of experience in developing verification so
 ## Infineon Technologies (contractor), Verification Engineer
 
 - Aug 2025 -\n present
-- Interface and Module UVC implementation.
+- Interface, Module UVC and directed test implementation.
 
 ## , Career break
 

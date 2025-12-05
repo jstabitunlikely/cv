@@ -20,7 +20,7 @@ cv:
         end_date: present
         summary: Dynamic verification of a NVM controller IP.
         highlights:
-          - Interface and Module UVC implementation.
+          - Interface, Module UVC and directed test implementation.
       - company: ''
         position: Career break
         summary: Backpacking through South East Asia.
