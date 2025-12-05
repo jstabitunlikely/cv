@@ -10,15 +10,22 @@ cv:
       username: jstabitunlikely
   sections:
     introduction:
-      - Verification Engineer with 10+ years of experience in developing cutting-edge verification solutions for
+      - Verification Engineer with 10+ years of experience in developing verification solutions for
         complex SoCs. Proven ability to lead teams, drive process improvements, and deliver high-quality results.
-        Expertise in UVM, Formal Verification, and Agile methodologies and Continuous Integration.
+        Expertise in UVM, Formal Verification, Agile methodologies and Continuous Integration.
     experience:
+      - company: Infineon Technologies (contractor)
+        position: Verification Engineer
+        start_date: 2025-08
+        end_date: present
+        summary: Dynamic verification of a NVM controller IP.
+        highlights:
+          - Interface and Module UVC implementation.
       - company: ''
         position: Career break
         summary: Backpacking through South East Asia.
         start_date: 2024-09
-        end_date: present
+        end_date: 2025-08
       - company: Arm Hungary
         position: Principal Verification Engineer
         start_date: 2024-03
@@ -118,8 +125,6 @@ cv:
         location: Cambridge
         highlights:
           - Planned and executed the migration of a legacy TB into the latest project generation, which implemented MVE (M-profile Vector Extension).
-          - Porting test vectors from another product line for more exhaustive testing.
-          - Additional work on PMC-100 (Programmable MBIST Controller) test bench.
       - name: '[Arm CoreLink GFC-200](https://developer.arm.com/documentation/101484/0000/Overview/About-the-GFC-200), Design Engineer'
         summary: Updated GFC-100 with new features while keeping PPA targets.
         start_date: 2018-02

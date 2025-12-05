@@ -9,13 +9,18 @@
 
 # Introduction
 
-Verification Engineer with 10+ years of experience in developing cutting-edge verification solutions for complex SoCs. Proven ability to lead teams, drive process improvements, and deliver high-quality results. Expertise in UVM, Formal Verification, and Agile methodologies and Continuous Integration.
+Verification Engineer with 10+ years of experience in developing verification solutions for complex SoCs. Proven ability to lead teams, drive process improvements, and deliver high-quality results. Expertise in UVM, Formal Verification, Agile methodologies and Continuous Integration.
 
 # Experience
 
+## Infineon Technologies (contractor), Verification Engineer
+
+- Aug 2025 -\n present
+- Interface and Module UVC implementation.
+
 ## , Career break
 
-- Sep 2024 -\n present
+- Sep 2024 -\n Aug 2025
 
 ## Arm Hungary, Principal Verification Engineer
 
@@ -88,8 +93,6 @@ Verification Engineer with 10+ years of experience in developing cutting-edge ve
 - Mar 2019 -\n Sep 2019
 - Cambridge
 - Planned and executed the migration of a legacy TB into the latest project generation, which implemented MVE (M-profile Vector Extension).
-- Porting test vectors from another product line for more exhaustive testing.
-- Additional work on PMC-100 (Programmable MBIST Controller) test bench.
 
 ## [Arm CoreLink GFC-200](https://developer.arm.com/documentation/101484/0000/Overview/About-the-GFC-200), Design Engineer
 
